@@ -1,0 +1,435 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/static/Nunito-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "ReeyRegular";
+  src: url("../font/Reey-Regular.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Nunito";
+  scroll-behavior: smooth;
+}
+
+.donate-box {
+  background-color: #15c8a0;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 200px;
+}
+
+.donate-box:hover {
+  background-color: #15c8a0;
+  cursor: pointer;
+}
+
+.donate-btn-text {
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.hover-text {
+  text-decoration: none;
+}
+
+.hover-text:hover {
+  color: #15c8a0;
+  transition-duration: 800ms;
+  cursor: pointer;
+}
+
+.normal-text {
+  font-weight: 700;
+}
+
+.theme-color {
+  color: #15c8a0;
+}
+
+.normal-text-black-back {
+  color: #b8bbc9;
+}
+
+/* navbar */
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white !important;
+}
+
+.nav-link {
+  position: relative;
+  color: #1f2230;
+  font-weight: 700;
+  font-size: 17px;
+}
+.nav-link::before {
+  transition: 300ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #15c8a0;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 0px;
+}
+
+/* header */
+.carousel-item-1 {
+  color: white;
+  background-image: linear-gradient(270deg, #1f2230f2, #1f2230c5),
+    url("../images/header-img-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 10px;
+}
+
+.carousel-item-2 {
+  color: white;
+  background-image: linear-gradient(90deg, #1f2230f2, #1f2230c5),
+    url("../images/header-img-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 10px;
+}
+
+.carousel-item-3 {
+  color: white;
+  background-image: linear-gradient(90deg, #1f2230cc, #1f2230f2),
+    url("../images/header-img-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 10px;
+}
+
+.header-helping-text {
+  font-family: "ReeyRegular";
+  color: white;
+}
+
+.header-topic-text {
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 100px;
+}
+.header-desc-text {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* intro */
+
+.intro {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sub-topic-text {
+  font-size: 20px;
+  color: #15c8a0;
+  font-weight: 800;
+}
+
+.topic-text {
+  color: #1f2230;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.basic-text {
+  color: #707876;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.mission {
+  font-size: 20px;
+  color: #1f2230;
+  font-weight: 800;
+}
+
+/* about */
+.about {
+  background-image: linear-gradient(90deg, #1f2230ef, #1f2230d5),
+    url("../images/kindred-kidneys-1.jpg");
+  background-size: cover;
+  padding: 40px;
+}
+
+.about-text {
+  font-size: 18px;
+  color: #eef0f8;
+  line-height: 34px;
+  font-weight: 700;
+}
+.accordion-button {
+  background-color: #1f2230;
+  color: #15c8a0 !important;
+  font-size: 18px;
+  font-weight: 700;
+}
+.accordion-body {
+  background-color: #1f2230;
+  color: #b8bbc9;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.accordion-button:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-button.collapsed {
+  color: white !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+}
+
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/* project */
+.project-wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #1f2230;
+}
+
+.card-text {
+  color: #707876;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.card {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* donate */
+.donate {
+  background-image: linear-gradient(90deg, #1f2230c5, #1f2230c5),
+    url("../images/parallax-img.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 80px 10px;
+}
+
+.donate-topic {
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.donate-text {
+  color: #b8bbc9;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* appreciation */
+.appreciation {
+  background-image: linear-gradient(90deg, #f1f1f1be, #f1f1f1e1),
+    url("../images/test.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  padding: 80px 10px;
+}
+
+/* footer */
+footer {
+  background-image: linear-gradient(90deg, #1f2230f2, #1f2230f2),
+    url("../images/footer-bg.jpg");
+  background-size: cover;
+  padding: 30px 10px 0px 10px;
+}
+
+.footer-topic {
+  color: white;
+  font-weight: 800;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #b8bbc9;
+  line-height: 34px;
+  font-weight: 700;
+}
+
+.footer-bold-text {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer-contact-icon {
+  color: #15c8a0;
+  font-size: 24px;
+}
+.footer-hr {
+  color: #ffffff45;
+  width: 90%;
+  margin: 0;
+}
+
+/* media queries */
+@media (min-width: 992px) {
+  .nav-link-ltr:hover::before {
+    width: 80%;
+  }
+  .header-topic-text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav-link-ltr:hover::before {
+    width: 10%;
+  }
+  .header-topic-text {
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-link-ltr:hover::before {
+    width: 10%;
+  }
+  .header-topic-text {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .rota-logo {
+    width: 250px;
+  }
+}
